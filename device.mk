@@ -28,6 +28,9 @@ PRODUCT_PACKAGES += \
     GoogleCameraENG \
     GoogleCamera_6gb_ram
 
+# GrapheneCamera
+PRODUCT_PACKAGES += GrapheneCamera
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
