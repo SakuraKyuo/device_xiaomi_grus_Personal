@@ -8,8 +8,11 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common aosp stuff.
+# Inherit some common Elixir stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+
+# Elixir stuff
+ELIXIR_BUILD_TYPE := OFFICIAL
 
 # Inherit from grus device
 $(call inherit-product, device/xiaomi/grus/device.mk)
