@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_grus.mk
+    $(LOCAL_DIR)/evolution_grus.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_grus-user \
-    aosp_grus-userdebug \
-    aosp_grus-eng
+    evolution_grus-user \
+    evolution_grus-userdebug \
+    evolution_grus-eng
