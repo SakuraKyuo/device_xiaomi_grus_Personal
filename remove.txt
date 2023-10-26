@@ -2,4 +2,3 @@ device/xiaomi
 kernel/xiaomi 
 vendor/xiaomi
 hardware/xiaomi
-device/xiaomi/grus/prebuilt/GoogleCameraENG
