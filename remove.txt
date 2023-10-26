@@ -2,3 +2,5 @@ device/xiaomi
 kernel/xiaomi 
 vendor/xiaomi
 hardware/xiaomi
+hardware/qcom-caf/sdm845
+device/qcom/sepolicy_vndr-legacy-um
