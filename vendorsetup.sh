@@ -6,7 +6,7 @@ rm -rf vendor/xiaomi-backup
 rm -rf kernel/xiaomi
 rm -rf hardware/xiaomi
 # clone
-git clone https://github.com/SakuraKyuo/device_xiaomi_sdm710-common device/xiaomi/sdm710-common -b UDC
+git clone https://github.com/SakuraKyuo/device_xiaomi_sdm710-common_Personalon device/xiaomi/sdm710-common -b UDC
 mkdir vendor/xiaomi-backup
 mv vendor/xiaomi/* vendor/xiaomi-backup/
 git clone https://github.com/ProjectElixir-Devices/vendor_xiaomi_grus vendor/xiaomi -b UDC
