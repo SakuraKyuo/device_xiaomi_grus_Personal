@@ -10,6 +10,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Evolution stuff.
 $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
+TARGET_USES_MINI_GAPPS = true
 
 # Inherit from grus device
 $(call inherit-product, device/xiaomi/grus/device.mk)
